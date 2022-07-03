@@ -3,6 +3,6 @@
 '''
 j=0
 for i in range(1, 101):
-    j=i+j
+    j+=i
     #print(f'{j}')
 print(f'La suma de los primeros 100 números naturales es: {j}')
